@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen(lg) {
+  .bg-first-section {
+    width: 2000px;
+    height: 300px;
+    left: 30%;
+    @apply absolute -z-10 rounded-l-full top-40 bg-softBlue;
+  }
+  .bg-tabs {
+    width: 2000px;
+    height: 300px;
+    right: 60%;
+    @apply absolute -z-10 rounded-r-full top-40 bg-softBlue;
+  }
+}
+.ficon:hover {
+  filter: invert(53%) sepia(38%) saturate(3303%) hue-rotate(326deg)
+    brightness(101%) contrast(96%);
+}
